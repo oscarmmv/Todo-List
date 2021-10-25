@@ -1,0 +1,104 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: azure;
+    background: linear-gradient(to bottom, #614385  , #516395) fixed;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.container {
+    text-align: left;
+    max-height: 350px;  
+    background-color: white;
+    padding: 25px 25px 100px 25px;
+    border-radius: 15px;
+    
+}
+
+.button {
+    margin-left: 10px;
+    padding: 23px 23px 15px 15px;
+    border: none;
+    background-image: url("Assets/button.png");
+    background-size: cover;
+}
+
+p {
+    background-color: #F2F2F2;
+    word-break: break-all;
+    padding: 4%;
+    margin-top: 5%;
+    /* border-radius: 2.5%; */
+    text-align: left;
+}
+
+section {
+    overflow-x: hidden;
+    overflow-y: visible;
+    margin: 10% 39.5% 10%;
+}
+
+.textBox {
+    height: 35px;
+    width: 275px;
+}
+
+p::before {content: "• "; color: #47AE2C}
+
+
+
+p::before {content: "• "; color: #47AE2C}
+
+
+@media only screen and (max-width: 1850px) {
+    body {
+        font-family: 'Lato', sans-serif;
+    }
+    
+    h1 {
+        font-size: 5rem;
+    }
+    
+    .container {
+        text-align: left;
+        min-height: 1000px;  
+        background-color: white;
+        padding: 25px 25px 100px 25px;
+        border-radius: 15px;
+        
+    }
+    
+    .button {
+    
+        padding: 25px 25px 25px 25px;
+        border: none;
+        background-image: url("Assets/button.png");
+        background-size: cover;
+    }
+    
+    p {
+        background-color: #F2F2F2;
+        word-break: break-all;
+        padding: 4%;
+        margin-top: 5%;
+        /* border-radius: 2.5%; */
+        text-align: left;
+        font-size: 2rem;
+    }
+    
+    section {
+        overflow-x: hidden;
+        overflow-y: visible;
+        margin: 10% 5% 5%;
+        
+    }
+    
+    .textBox {
+        margin-right: 10px;
+        height: 45px;
+        width: 405px;
+        font-size: 3rem;
+    }
+}
