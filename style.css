@@ -43,6 +43,7 @@ section {
 .textBox {
     height: 35px;
     width: 275px;
+    font-size: 14px;
 }
 
 p::before {content: "• "; color: #47AE2C}
